@@ -15,7 +15,7 @@ stages:
               provider: 'azurerm'
               command: 'init'
               workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
-              backendServiceArm: 'your-arm-service-connection'
+              backendServiceArm: 'your-arm-service-connection-NEW'
               backendAzureRmResourceGroupName: 'RS_Uma_Training01'
               backendAzureRmStorageAccountName: 'RS_Uma_Training01'
               backendAzureRmContainerName: 'test'
