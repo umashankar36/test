@@ -25,5 +25,5 @@ stages:
               provider: 'azurerm'
               command: 'apply'
               workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
-              environmentServiceNameAzureRM: 'c614e646-d878-41af-8d21-74c639bf52b4'
-              environmentServiceNameAzureRm: 'c614e646-d878-41af-8d21-74c639bf52b4'
+              environmentServiceNameAzureRM: 'Test1'
+              environmentServiceNameAzureRm: 'Test1'
