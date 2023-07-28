@@ -26,4 +26,4 @@ stages:
               command: 'apply'
               workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
               environmentServiceNameAzureRM: 'Test1pol'
-              environmentServiceNameAzureRm: 'Test1pol1'
+
